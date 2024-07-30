@@ -5,5 +5,8 @@
         "Signin",
         "Signup",
         "svix"
+    ],
+    "cSpell.ignoreWords": [
+        "cloudinary"
     ]
 }
