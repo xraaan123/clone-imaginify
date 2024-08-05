@@ -94,7 +94,7 @@ export const Collection = ({
     );
 };
 
-const Card = ({ image }: { image: IImage }) => {
+const Card = ({ image, key }: { image: IImage, key: number }) => {
     return (
         <li>
             <Link href={`/transformations/${image._id}`} className="collection-card">

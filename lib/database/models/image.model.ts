@@ -27,7 +27,7 @@ const ImageSchema = new Schema({
   publicId: { type: String, require: true },
   secureURL: { type: String, require: true },
   width: { type: Number },
-  height: { typeL: Number },
+  height: { type: Number },
   config: { type: Object },
   transformationUrl: { type: String },
   aspectRatio: { type: String },
